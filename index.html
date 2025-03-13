@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeopardy Algebra 1 Edition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="score-display"></div>
+        <div id="game-board"></div>
+        <div id="game-status"></div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal">×</span>
+            <div id="modal-question"></div>
+            <div>Time Left: <span id="time-left">30</span>s</div>
+            <button id="show-answer-btn">Show Answer</button>
+            <div id="modal-answer" style="display: none;">Answer: <span id="answer-text"></span></div>
+            <div id="answer-input"></div>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
