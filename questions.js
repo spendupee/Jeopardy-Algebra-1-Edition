@@ -215,8 +215,8 @@ const questions = {
             answer: "20"
         },
         {
-            question: "If 10% of data points are removed, does the mean decrease? (Yes/No)",
-            answer: "No"
+            question: "A store starts with 100 items in stock. Each morning, a shipment comes in adding 50% more items, and they sell 20 per day. What is the number of items remaining after two days?",
+            answer: "175"
         }
     ],
     "Ratio Rangers": [
