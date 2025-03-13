@@ -10,7 +10,7 @@ const questions = {
         },
         {
             question: "Find the smallest positive integer k such that 126k is a perfect cube.",
-            answer: "294"
+            answer: "588"
         },
         {
             question: "How many positive divisors does 360 have?",
@@ -71,19 +71,19 @@ const questions = {
             answer: "2:00 PM"
         },
         {
-            question: "How many degrees does the hour hand move from 9:15 AM to 1:45 PM?",
-            answer: "135"
+            question: "How many degrees in total does the hour hand move from 9:15 AM to 1:45 PM?",
+            answer: "1620"
         },
         {
-            question: "If it is 5:20 PM now, what time will it be when the minute hand catches up to the hour hand?",
-            answer: "6:00 PM"
+            question: "If it is 5:20 PM now, what time will it be when the minute hand catches up to the hour hand? (To the nearest minute)",
+            answer: "5:27 PM"
         },
         {
             question: "A meeting started at 10:45 AM and lasted 2 hours 55 minutes. When did it end?",
             answer: "1:40 PM"
         },
         {
-            question: "How many times do clock hands overlap between noon and midnight?",
+            question: "How many times do clock hands overlap between noon and midnight? (not including noon)",
             answer: "11"
         }
     ],
@@ -335,7 +335,7 @@ const questions = {
             answer: "12"
         },
         {
-            question: "A train leaves Station A at 3 PM traveling 60 mph. Another leaves Station B at 4 PM traveling 80 mph. When will they meet?",
+            question: "Train A leaves at 3 PM traveling 60 mph. Train B leaves the same station at 4 PM traveling in the same direction 80 mph. When will they meet?",
             answer: "7 PM"
         },
         {
